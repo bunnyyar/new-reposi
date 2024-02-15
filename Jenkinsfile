@@ -1,9 +1,9 @@
 pipeline {
     agent any
     tools {
-     'nodejs'
+      nodejs 'node-16'
     } 
-    
+
     stages{
         stage('build') {
             steps{
